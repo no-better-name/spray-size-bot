@@ -1,0 +1,17 @@
+[package]
+name = "spray-size-bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = "0.25.5"
+teloxide = { version = "0.13.0", features = ["macros"] }
+log = "0.4"
+pretty_env_logger = "0.5"
+tokio = { version =  "1.8", features = ["rt-multi-thread", "macros"] }
+
+[dependencies.hl-spray-size-calculator]
+path = "../hl-spray-size-calculator"
+
+[dependencies.vector2]
+path = "../vector2"

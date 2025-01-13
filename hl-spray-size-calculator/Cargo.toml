@@ -1,0 +1,9 @@
+[package]
+name = "hl-spray-size-calculator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dependencies.vector2]
+path = "../vector2"
